@@ -9,6 +9,7 @@ import 'element-ui/lib/theme-chalk/index.css';
 import App from './components/app/app';
 import routes from './routes';
 
+require('font-awesome/css/font-awesome.css');
 
 Vue.config.productionTip = false;
 

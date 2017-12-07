@@ -1,12 +1,9 @@
-#app {
+html, body, #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-body {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
   margin: 0;
+  height: 100%;
 }
 
 @for $i from 0 through 50 {

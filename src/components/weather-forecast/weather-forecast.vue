@@ -6,12 +6,12 @@
       </el-menu>
     </el-header>
     <el-main>
+      <div class="hello">
+        <h1>{{view}}</h1>
+      </div>
       <el-row :gutter="20" class="pt-10 pb-10">
         <el-col :span="20">
           <h3 class="m-0">Weather report in Hyderabad</h3>
-          <div class="hello">
-            <h2>{{view}}</h2>
-          </div>
         </el-col>
         <el-col :span="4" class="text-right">
           <span class="fs-24" @click="changeView('table')"><i class="fa fa-table" aria-hidden="true" :class="{ 'active': (view === 'table') }"></i></span>
@@ -67,7 +67,6 @@
         allDaysData: null,
         currentDayData: null,
         currentIndex: 0,
-        currentPage: 0,
         view: 'table',
         dataSet: null,
         graphLabels: null,
